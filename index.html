@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Avenir">
+    <script src="index.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"  rel="stylesheet"  type='text/css'>
+    <script type="text/javascript" src="https://use.fontawesome.com/30858dc40a.js?ver=4.0.7"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sunil Rai</title>
+</head>
+
+<body>                                                                                         
+  <div class="loader">
+    <img src="loader.svg" alt="Loading..." />
+</div>
+<script>
+// Script for loader to display when page is loading
+  $(function() {
+    $(".loader").fadeOut(2000, function() {
+         window.scrollTo(0,0);      
+        $(".bodycontainer").fadeIn(1000);  
+    });
+});
+
+// Script to siaply backtotop button when scroll to down
+$(window).scroll(function() {
+  var $el = $('.backToTop');
+  
+  if($(this).scrollTop() >= 300) $el.addClass('shown');
+  else $el.removeClass('shown');
+});
+
+</script>
+
+
+
+
+<div class="bodycontainer">
+
+  <div class="navigation">
+    <nav class="header" id="mynav">
+        <div id="logo">
+          <h4>Dr. Sunil Rai</h4>
+        </div>
+
+        <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#">journey</a></li>
+                <li><a href="#">Learnings</a></li>
+                <li><a href="#my-work">Work</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+        </ul>
+  
+    </nav>
+</div>
+
+<div class="social">
+
+<a href="https://twitter.com/DrSunilRai5" target="_blank"><i class="fa fa-twitter" aria-hidden="false"></i></a>
+
+<a href="https://www.facebook.com/sunil.rai.98622" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+<!-- <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></i></a> -->
+
+<a href="https://in.linkedin.com/in/dr-sunil-rai-6436a07" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+
+</div>
+
+<div class="part1">
+<div class="col-1">
+    <img src="./Dr. Sunil Rai.jpg" alt="Deniel Martinez">
+</div>
+<div class="col-2">
+   <span id="name">Dr. Sunil Rai</span><br><br>
+   <span id="profession">Vice Chancellor, UPES</span>
+</div>
+</div>
+
+
+<div class="part2" id="about-me">
+<h1>About Dr.Sunil Rai</h1>
+
+<p id="para">Dr. Sunil Rai is the Vice Chancellor of University of Petroleum and Energy Studies (UPES). 
+  A veteran academician, he has a vast experience of 42 years with 20 years in academics, 21 years with the 
+  Indian Navy and 2 years in the corporate world. Prior to joining UPES, he was the Vice Chancellor of MIT Arts 
+  Design & Technology University, Pune and Director on Board of Maharashtra IT Corporation, Govt. of Maharashtra.<br><br>
+  In his illustrious career in the world of academia, Dr. Rai has come to be known for designing and implementing
+   plans that transform organisations. He has led them in various capacities - as pro-vice-chancellor, director, 
+   dean, and chairperson; additionally, he has been instrumental in building some of these universities into huge 
+   brands – through implementing processes, developing and nurturing their staff and obtaining accreditations for them. <br><br>
+   Dr. Sunil Rai says, "There are no bad students... <a href="https://www.edexlive.com/people/2020/mar/17/there-are-no-bad-students-only-bad-teachers-upes-vc-sunil-rai-india-needs-to-educate-its-teachers-10710.html" target="_blank">Click here to read more</a>"
+    </p>
+<!-- <button id="resume" onclick="window.open('About Me.html')">Read More</button> -->
+</div>
+
+
+<div class="part3">
+<h1 id="my-work">Dr.Sunil Rai's Work</h1><br><br>
+<div class="image1">
+  <img  id="cont1" src="./Dr.SunilRai1.jpg" alt="mypic">
+  <div id="cont2">
+      <h2>Dr. Sunil’s experience in education sector </h2>
+      <p>I have been in the education sector for many years and have been fortunate to be at 
+        senior levels as academic administrator, the higher education sector is growing rapidly in 
+        terms of the private higher education players. The entire eco-system of private higher education 
+        is evolving into providing quality education. This evolution makes the sector a challenging one.</p>
+  </div>
+</div>
+<br><br><br><br><br>
+
+<div class="image2">
+  <img  id="cont1" src="./Dr.SunilRai2.jpg" alt="mypic">
+  <div id="cont2">
+      <h2>Astute Academician</h2>
+      <p>Dr. Rai has been rated as the best faculty for eight years in succession at national and foreign campuses. 
+        He has an eclectic mix of management, engineering and performing arts as part of his professional journey 
+        and his research interests comprise of technology enabled - people driven change management and organizational development. </p>
+  </div>
+</div>
+<br><br><br><br><br>
+
+
+<div class="image1">
+  <img  id="cont1" src="./Dr.SunilRai4.jpg" alt="mypic">
+  <div id="cont2">
+      <h2>Member of Board of Advisors</h2>
+       <p>Dr. Rai is also a member of the Board of Advisors, Outreach Programs of Virginia Polytechnic 
+        University, Blacksburg, USA and the co-founder of Cambridge Global Partners, Edinburgh UK, which provides 
+        strategic consulting to several industrial and academic organizations.
+      </p>
+  </div>
+</div>
+<br><br><br><br><br>
+</div>
+
+<div class="videoGalleryContainer">
+  <h1>Video Gallery</h1>
+  <div class="videoGallery">
+    <div class="videocontainer">
+      <iframe src="https://www.youtube.com/embed/u8cS5xJIp6M"></iframe>
+    </div>
+    <div class="videocontainer">
+      <iframe src="https://www.youtube.com/embed/9V1ERE6ic0Y"></iframe>
+    </div>
+    <div class="videocontainer">
+      <iframe src="https://www.youtube.com/embed/coG_wpzYuhA"></iframe>
+    </div>
+    <div class="videocontainer">
+      <iframe src="https://www.youtube.com/embed/vlBCIc0bJ58"></iframe>
+    </div>
+    <div class="videocontainer">
+      <iframe src="https://www.youtube.com/embed/u5_w8ZAhfhc"></iframe>
+    </div>
+    <div class="videocontainer">
+      <iframe src="https://www.youtube.com/embed/a4PFrnQoFhs"></iframe>
+    </div> 
+  </div>
+</div>
+
+
+
+<div class="part4" id="contact-me">
+
+<div class="contact">
+      <h1>Contact</h1>
+      <div class="cont">
+               <strong> <p>Personal Information</p></strong>
+                <p>Email Id: vicechancellor@mituniversity.edu.in</p>
+                <p>Phone Number: 09146051843, 09892106540, 020-30693700</p>
+      </div>
+
+
+       <div class="cont">
+                <strong><p>Social Media</p></strong>
+                <p>Facebook: https://www.facebook.com/sunil.rai.98622</p>
+                <p>Twitter: https://twitter.com/DrSunilRai5</p>
+                <p>Linedin: https://in.linkedin.com/in/dr-sunil-rai-6436a07</p>
+
+               
+      </div>
+
+      <div class="cont contactUs">Request for Appointment <i class="fa fa-envelope" aria-hidden="true"></i></div>
+      <div class="cont contactUs">Request for Talks and Lectures <i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+</div>
+
+<div class="contact-image">
+  <img src="./Dr.SunilRai3.jpg" alt="fourth">
+</div>
+
+</div>
+
+
+
+<div class="footer">Created by Vinita Sharma</div>
+<div class="backToTop" onclick="window.scrollTo(0, 0);">
+  <i class="fa fa-arrow-up" aria-hidden="true"></i>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
